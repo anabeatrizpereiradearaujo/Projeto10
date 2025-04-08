@@ -41,7 +41,10 @@ namespace Projeto10
             Application.Run(new Pagina1());
         }
 
-       
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }   
 
 

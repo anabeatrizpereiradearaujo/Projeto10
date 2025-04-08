@@ -151,6 +151,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Pagina2";
             this.Text = "Pagina2";
             this.Load += new System.EventHandler(this.Pagina2_Load);
