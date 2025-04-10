@@ -14,6 +14,8 @@ namespace Projeto10
     public partial class Form1 : Form
     {
         Thread nt;
+        private Form homeScrem;
+
         public Form1()
         {
             InitializeComponent();
@@ -24,13 +26,13 @@ namespace Projeto10
             if (textBox1.Text == "Beatriz" && textBox2.Text == "2424")
             {
                 this.Close();
-                 nt = new Thread(abrirPagina1);
+                nt = new Thread(abrirPagina1);
                 nt.SetApartmentState(ApartmentState.STA);
                 nt.Start();
 
 
             }
-            else 
+            else
             {
                 MessageBox.Show("Senha ou usuário Inválidos!");
             }
@@ -41,8 +43,26 @@ namespace Projeto10
             Application.Run(new Pagina1());
         }
 
-       
-    }   
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+
+
+
+
+        }
+
+
+
+
+    }
 
 
 }
+
+

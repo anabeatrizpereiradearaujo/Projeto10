@@ -46,33 +46,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="login\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="login\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pagina1.cs">
+    <Compile Include="Geografia\Pagina1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pagina1.Designer.cs">
+    <Compile Include="Geografia\Pagina1.Designer.cs">
       <DependentUpon>Pagina1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pagina2.cs">
+    <Compile Include="Matematica\Pagina2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pagina2.Designer.cs">
+    <Compile Include="Matematica\Pagina2.Designer.cs">
       <DependentUpon>Pagina2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="login\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pagina1.resx">
+    <EmbeddedResource Include="Geografia\Pagina1.resx">
       <DependentUpon>Pagina1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pagina2.resx">
+    <EmbeddedResource Include="Matematica\Pagina2.resx">
       <DependentUpon>Pagina2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

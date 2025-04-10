@@ -121,10 +121,13 @@
     <value>Conceito de Probabilidade, Explicação- Probabilidade é a chance de um evento ocorrer, expressa como um valor entre 0 e 1 ou em porcentagem.
 Fórmula Básica, Explicação - P(A) = Casos Favoráveis / Casos Possíveis. Exemplo: Ao lançar um dado de 6 faces, a chance de sair um número par é 3/6 = 50%.
 Probabilidade Condicional, Explicação - A probabilidade de um evento ocorrer dado que outro evento já aconteceu. Fórmula: P(A|B) = P(A ∩ B) / P(B).
-Distribuição de Frequência, Explicação - Organização de dados em tabelas para analisar a frequência de ocorrência de valores.</value>
+Distribuição de Frequência, Explicação - Organização de dados em tabelas para analisar a frequência de ocorrência de valores.
+
+
+</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg
         JC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIy
