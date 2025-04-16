@@ -33,15 +33,15 @@ namespace Projeto10
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e) { }
-        
-              private void abrirPagina2()
-              {
-                  Application.Run(new Pagina2());
-              }
+
+        private void abrirPagina2()
+        {
+            Application.Run(new Pagina2());
+        }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            label1.Text = "Resposta correta ";
+            label1.Text = "Resposta correta! ";
             label1.ForeColor = Color.Green;
         }
 
@@ -68,12 +68,9 @@ namespace Projeto10
             this.Close();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
 
-        }
+
     }
-    
 }
 
 

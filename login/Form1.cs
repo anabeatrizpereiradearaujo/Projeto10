@@ -43,26 +43,12 @@ namespace Projeto10
             Application.Run(new Pagina1());
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-
-
-
-
-        }
-
 
 
 
     }
 
-
 }
+
 
 

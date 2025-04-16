@@ -25,7 +25,7 @@ namespace Projeto10
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            label1.Text = " Resposta incorreta! A alternativa correta é B";
+            label1.Text = " Resposta incorreta!";
             label1.ForeColor = Color.Red;
 
         }
@@ -38,14 +38,14 @@ namespace Projeto10
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            label1.Text = " Resposta incorreta! A alternativa correta é B";
+            label1.Text = " Resposta incorreta!";
             label1.ForeColor = Color.Red;
 
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            label1.Text = " Resposta incorreta! A alternativa correta é B";
+            label1.Text = " Resposta incorreta!";
             label1.ForeColor = Color.Red;
         }
 
@@ -58,6 +58,11 @@ namespace Projeto10
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Pagina1_Load(object sender, EventArgs e)
+        {
+
         }
     }  
          
