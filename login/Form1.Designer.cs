@@ -40,52 +40,54 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cadastro = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(382, 204);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(350, 185);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 13);
+            this.label1.Size = new System.Drawing.Size(36, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(382, 250);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(345, 236);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 13);
+            this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Senha:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(430, 201);
+            this.textBox1.Location = new System.Drawing.Point(387, 182);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 20);
+            this.textBox1.Size = new System.Drawing.Size(171, 20);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            this.textBox2.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.textBox2.Location = new System.Drawing.Point(430, 247);
+            this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox2.Location = new System.Drawing.Point(387, 233);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(163, 20);
+            this.textBox2.Size = new System.Drawing.Size(171, 20);
             this.textBox2.TabIndex = 3;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.button1.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.button1.Location = new System.Drawing.Point(469, 468);
+            this.button1.Location = new System.Drawing.Point(833, 508);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(73, 42);
+            this.button1.Size = new System.Drawing.Size(97, 28);
             this.button1.TabIndex = 4;
             this.button1.Text = "Confirmar";
             this.button1.UseVisualStyleBackColor = false;
@@ -94,19 +96,20 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(454, 309);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(421, 288);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 15);
+            this.label4.Size = new System.Drawing.Size(99, 15);
             this.label4.TabIndex = 7;
             this.label4.Text = "Escolha Materia:";
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(428, 405);
+            this.dateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.dateTimePicker1.Location = new System.Drawing.Point(387, 370);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(165, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(171, 20);
             this.dateTimePicker1.TabIndex = 8;
             // 
             // comboBox1
@@ -117,28 +120,28 @@
             "Matematica",
             "Portugues",
             "Ingles"});
-            this.comboBox1.Location = new System.Drawing.Point(429, 336);
+            this.comboBox1.Location = new System.Drawing.Point(387, 306);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(164, 21);
+            this.comboBox1.Size = new System.Drawing.Size(171, 21);
             this.comboBox1.TabIndex = 9;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(466, 373);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(434, 354);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 13);
+            this.label3.Size = new System.Drawing.Size(76, 13);
             this.label3.TabIndex = 10;
             this.label3.Text = "Escolha o Dia:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Romantic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label5.Location = new System.Drawing.Point(403, 106);
+            this.label5.Font = new System.Drawing.Font("Romantic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label5.Location = new System.Drawing.Point(303, 62);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(206, 29);
+            this.label5.Size = new System.Drawing.Size(323, 45);
             this.label5.TabIndex = 11;
             this.label5.Text = "Cadastro do Aluno";
             // 
@@ -147,17 +150,31 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(-8, -43);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(233, 194);
+            this.pictureBox1.Size = new System.Drawing.Size(196, 178);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
+            // 
+            // cadastro
+            // 
+            this.cadastro.BackColor = System.Drawing.Color.AliceBlue;
+            this.cadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cadastro.ForeColor = System.Drawing.Color.Red;
+            this.cadastro.Location = new System.Drawing.Point(703, 508);
+            this.cadastro.Name = "cadastro";
+            this.cadastro.Size = new System.Drawing.Size(124, 26);
+            this.cadastro.TabIndex = 13;
+            this.cadastro.Text = "Cadastrar Aluno";
+            this.cadastro.UseVisualStyleBackColor = false;
+            this.cadastro.Click += new System.EventHandler(this.btncadastraraluno_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(990, 532);
+            this.ClientSize = new System.Drawing.Size(931, 535);
+            this.Controls.Add(this.cadastro);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -173,7 +190,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Cadastro";
+            this.Click += new System.EventHandler(this.btncadastraraluno_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -193,6 +210,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button cadastro;
     }
 }
 

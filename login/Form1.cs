@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using Projeto10.login;
 
 namespace Projeto10
 {
@@ -26,7 +27,7 @@ namespace Projeto10
             if (textBox1.Text == "Beatriz" && textBox2.Text == "2424")
             {
                 this.Close();
-                nt = new Thread(abrirPagina1);
+                nt = new Thread(abrircadastroaluno);
                 nt.SetApartmentState(ApartmentState.STA);
                 nt.Start();
 
@@ -38,17 +39,25 @@ namespace Projeto10
             }
         }
 
-        private void abrirPagina1()
+        private void abrircadastroaluno()
         {
-            Application.Run(new Pagina1());
+            Application.Run(new cadastro_aluno());
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
 
+        }
 
-
+        private void btncadastraraluno_Click(object sender, EventArgs e)
+        {
+            cadastro_aluno novoForm = new cadastro_aluno();
+            novoForm.Show();
+            this.Hide();
+        }
     }
-
 }
+
 
 
 

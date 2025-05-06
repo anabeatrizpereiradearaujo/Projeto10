@@ -45,9 +45,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Cursor = System.Windows.Forms.Cursors.No;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(726, 431);
+            this.label1.Location = new System.Drawing.Point(743, 444);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(170, 24);
             this.label1.TabIndex = 0;
@@ -120,10 +121,11 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1164, 517);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Red;
+            this.button2.Location = new System.Drawing.Point(1177, 519);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 36);
+            this.button2.Size = new System.Drawing.Size(82, 34);
             this.button2.TabIndex = 10;
             this.button2.Text = "sair";
             this.button2.UseVisualStyleBackColor = true;
@@ -165,7 +167,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pagina1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

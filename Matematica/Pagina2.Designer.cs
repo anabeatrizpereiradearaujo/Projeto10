@@ -56,6 +56,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radioButton1.Location = new System.Drawing.Point(496, 264);
@@ -70,6 +71,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.Location = new System.Drawing.Point(496, 299);
             this.radioButton2.Name = "radioButton2";
@@ -83,6 +85,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
+            this.radioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.Location = new System.Drawing.Point(657, 299);
             this.radioButton3.Name = "radioButton3";
@@ -96,6 +99,7 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
+            this.radioButton4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.Location = new System.Drawing.Point(657, 264);
             this.radioButton4.Name = "radioButton4";
@@ -109,6 +113,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.No;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(525, 352);
@@ -129,7 +134,8 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.Location = new System.Drawing.Point(1004, 461);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 27);
@@ -162,7 +168,7 @@
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.textBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Pagina2";
             this.Text = "Pagina2";
             this.Load += new System.EventHandler(this.Pagina2_Load);
