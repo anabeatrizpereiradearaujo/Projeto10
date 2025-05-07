@@ -1,6 +1,6 @@
 ﻿namespace Projeto10.login
 {
-    partial class cadastro_aluno
+    partial class cadastroaluno
     {
         /// <summary>
         /// Required designer variable.
@@ -34,7 +34,7 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtCpf = new System.Windows.Forms.TextBox();
             this.dtpDataNascimento = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
+            this.cadastroconcluido = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -91,15 +91,15 @@
             this.dtpDataNascimento.Size = new System.Drawing.Size(248, 20);
             this.dtpDataNascimento.TabIndex = 6;
             // 
-            // button1
+            // cadastroconcluido
             // 
-            this.button1.Location = new System.Drawing.Point(294, 334);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(144, 32);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Cadastrar Aluno";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btnCadastrarAluno_Click);
+            this.cadastroconcluido.Location = new System.Drawing.Point(294, 334);
+            this.cadastroconcluido.Name = "cadastroconcluido";
+            this.cadastroconcluido.Size = new System.Drawing.Size(144, 32);
+            this.cadastroconcluido.TabIndex = 7;
+            this.cadastroconcluido.Text = "Cadastrar Aluno";
+            this.cadastroconcluido.UseVisualStyleBackColor = true;
+            this.cadastroconcluido.Click += new System.EventHandler(this.btnCadastrarAluno_Click);
             // 
             // label2
             // 
@@ -168,7 +168,7 @@
             this.txtSenha.Size = new System.Drawing.Size(217, 20);
             this.txtSenha.TabIndex = 14;
             // 
-            // cadastro_aluno
+            // cadastroaluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -181,15 +181,17 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cadastroconcluido);
             this.Controls.Add(this.dtpDataNascimento);
             this.Controls.Add(this.txtCpf);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNomeMae);
-            this.Name = "cadastro_aluno";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "cadastroaluno";
             this.Text = "cadastro_aluno";
+            this.Load += new System.EventHandler(this.cadastroaluno_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -203,7 +205,7 @@
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtCpf;
         private System.Windows.Forms.DateTimePicker dtpDataNascimento;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button cadastroconcluido;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

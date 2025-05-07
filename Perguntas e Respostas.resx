@@ -117,19 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>A cartografia é a ciência e arte de representar a superfície da Terra através de mapas.
-Mapas são representações gráficas que nos ajudam a entender e localizar informações geográficas.
-Os principais elementos de um mapa incluem: título (indica o tema)
-legenda (explica os símbolos) escala (relação entre o mapa e a realidade)
-orientação (geralmente indicada pela rosa dos ventos) e projeção (representação da superfície curva da Terra em um plano).
-
-Tipos de Mapas - Existem diversos tipos de mapas, como mapas políticos (divisão administrativa), físicos (relevo, hidrografia)
-temáticos (clima, vegetação, população) e topográficos (altimetria).
-
-Coordenadas Geográficas - As coordenadas geográficas (latitude e longitude) são um sistema de localização que permite encontrar qualquer ponto na Terra. 
-A latitude mede a distância em graus ao norte ou sul do Equador, e a longitude mede a distância em graus a leste ou oeste do Meridiano de Greenwich.
-
-</value>
-  </data>
 </root>

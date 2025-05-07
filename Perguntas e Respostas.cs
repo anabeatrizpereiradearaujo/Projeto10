@@ -19,19 +19,22 @@ namespace Projeto10
 
         private void Perguntas_e_Respostas_Load(object sender, EventArgs e)
         {
+
+
         }
 
-        private void Cadastrarquestão (object sender, EventArgs e)
-        
-            perguntas e respostas novoForm = new perguntas e respostas();
-            novoForm.Show();
-            this.Hide();
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("\"Novas questões adicionadas com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+            txtPergunta.Clear();
+            txtAlternativaA.Clear();
+            txtAlternativaB.Clear();
+            txtAlternativaC.Clear();
+            txtAlternativaD.Clear();
         }
     }
-    }
-    }
+
+}
+
 

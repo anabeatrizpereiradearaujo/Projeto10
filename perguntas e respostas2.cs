@@ -21,5 +21,21 @@ namespace Projeto10
         {
 
         }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Novas questões adicionadas com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            txtPergunta.Clear();
+            txtAlternativaA.Clear();
+            txtAlternativaB.Clear();
+            txtAlternativaC.Clear();
+            txtAlternativaD.Clear();
+        }
+
+        private void perguntas_e_respostas2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

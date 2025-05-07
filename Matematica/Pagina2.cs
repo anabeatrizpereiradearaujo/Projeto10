@@ -68,8 +68,13 @@ namespace Projeto10
             this.Close();
         }
 
+        private void button1_Click_1(object sender, EventArgs e)
+        {
 
-
+            perguntas_e_respostas2 proximaTela = new perguntas_e_respostas2();
+            proximaTela.Show();
+            this.Hide();
+        }
     }
 }
 

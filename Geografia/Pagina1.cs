@@ -13,7 +13,7 @@ namespace Projeto10
 {
     public partial class Pagina1 : Form
     {
-        Thread nt;
+        
         public Pagina1()
         {
             InitializeComponent();
@@ -57,10 +57,18 @@ namespace Projeto10
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+  
+            Perguntas_e_Respostas proximaTela = new Perguntas_e_Respostas(); 
+            proximaTela.Show();                  
+            this.Hide();                       
         }
 
         private void Pagina1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

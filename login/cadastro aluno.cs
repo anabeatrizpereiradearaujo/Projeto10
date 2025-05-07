@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto10.login
 {
-    public partial class cadastro_aluno : Form
+    public partial class cadastroaluno : Form
     {
-        public cadastro_aluno()
+        public cadastroaluno()
         {
             InitializeComponent();
         }
@@ -29,6 +29,11 @@ namespace Projeto10.login
             Aluno aluno = new Aluno(nome, dataNascimento, nomeMae, cpf, email, senha);
 
             MessageBox.Show($"Aluno cadastrado com sucesso!\n\nNome: {aluno.Nome}\nData de Nascimento: {aluno.DataNascimento.ToShortDateString()}\nNome da Mãe: {aluno.NomeMae}\nCPF: {aluno.CPF}\nEmail: {aluno.Email}\nSenha: {aluno.Senha}", "Cadastro Realizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void cadastroaluno_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

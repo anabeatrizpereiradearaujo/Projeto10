@@ -26,10 +26,11 @@ namespace Projeto10
         {
             if (textBox1.Text == "Beatriz" && textBox2.Text == "2424")
             {
-                this.Close();
-                nt = new Thread(abrircadastroaluno);
-                nt.SetApartmentState(ApartmentState.STA);
-                nt.Start();
+
+                this.Hide();
+                Pagina1 pagina1 = new Pagina1();
+                pagina1.Show();
+
 
 
             }
@@ -39,21 +40,22 @@ namespace Projeto10
             }
         }
 
-        private void abrircadastroaluno()
-        {
-            Application.Run(new cadastro_aluno());
-        }
+      
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
+            
+            MessageBox.Show("Primeiro acesso clicacado!");
 
-        }
-
-        private void btncadastraraluno_Click(object sender, EventArgs e)
-        {
-            cadastro_aluno novoForm = new cadastro_aluno();
+            cadastroaluno novoForm = new cadastroaluno();
             novoForm.Show();
             this.Hide();
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

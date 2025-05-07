@@ -40,7 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.cadastro = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,7 +53,6 @@
             this.label1.Size = new System.Drawing.Size(36, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -155,26 +154,25 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
-            // cadastro
+            // button2
             // 
-            this.cadastro.BackColor = System.Drawing.Color.AliceBlue;
-            this.cadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cadastro.ForeColor = System.Drawing.Color.Red;
-            this.cadastro.Location = new System.Drawing.Point(703, 508);
-            this.cadastro.Name = "cadastro";
-            this.cadastro.Size = new System.Drawing.Size(124, 26);
-            this.cadastro.TabIndex = 13;
-            this.cadastro.Text = "Cadastrar Aluno";
-            this.cadastro.UseVisualStyleBackColor = false;
-            this.cadastro.Click += new System.EventHandler(this.btncadastraraluno_Click);
+            this.button2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button2.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.button2.Location = new System.Drawing.Point(423, 419);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(97, 28);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "Primeiro Acesso";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(931, 535);
-            this.Controls.Add(this.cadastro);
+            this.ClientSize = new System.Drawing.Size(931, 533);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -190,7 +188,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Click += new System.EventHandler(this.btncadastraraluno_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -210,7 +207,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button cadastro;
+        private System.Windows.Forms.Button button2;
     }
 }
 

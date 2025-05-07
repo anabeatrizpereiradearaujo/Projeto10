@@ -117,14 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>Conceito de Probabilidade, Explicação- Probabilidade é a chance de um evento ocorrer, expressa como um valor entre 0 e 1 ou em porcentagem.
-Fórmula Básica, Explicação - P(A) = Casos Favoráveis / Casos Possíveis. Exemplo: Ao lançar um dado de 6 faces, a chance de sair um número par é 3/6 = 50%.
-Probabilidade Condicional, Explicação - A probabilidade de um evento ocorrer dado que outro evento já aconteceu. Fórmula: P(A|B) = P(A ∩ B) / P(B).
-Distribuição de Frequência, Explicação - Organização de dados em tabelas para analisar a frequência de ocorrência de valores.
-
-
-
-</value>
-  </data>
 </root>
