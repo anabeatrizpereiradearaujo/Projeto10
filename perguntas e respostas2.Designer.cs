@@ -48,7 +48,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(64, 12);
+            this.textBox1.Location = new System.Drawing.Point(46, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(615, 104);
@@ -133,7 +133,7 @@
             // txtPergunta
             // 
             this.txtPergunta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPergunta.Location = new System.Drawing.Point(143, 132);
+            this.txtPergunta.Location = new System.Drawing.Point(46, 122);
             this.txtPergunta.Multiline = true;
             this.txtPergunta.Name = "txtPergunta";
             this.txtPergunta.Size = new System.Drawing.Size(370, 27);
@@ -145,44 +145,48 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(492, 182);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(58, 17);
+            this.radioButton1.Size = new System.Drawing.Size(68, 17);
             this.radioButton1.TabIndex = 28;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "correta";
+            this.radioButton1.Text = "confirmar";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(492, 233);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(58, 17);
+            this.radioButton2.Size = new System.Drawing.Size(68, 17);
             this.radioButton2.TabIndex = 29;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "correta";
+            this.radioButton2.Text = "confirmar";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(492, 282);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(58, 17);
+            this.radioButton3.Size = new System.Drawing.Size(68, 17);
             this.radioButton3.TabIndex = 30;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "correta";
+            this.radioButton3.Text = "confirmar";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(492, 335);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(58, 17);
+            this.radioButton4.Size = new System.Drawing.Size(68, 17);
             this.radioButton4.TabIndex = 31;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "correta";
+            this.radioButton4.Text = "confirmar";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // perguntas_e_respostas2
             // 
@@ -205,7 +209,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "perguntas_e_respostas2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "perguntas_e_respostas2";
             this.Load += new System.EventHandler(this.perguntas_e_respostas2_Load);
             this.ResumeLayout(false);

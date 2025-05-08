@@ -26,11 +26,7 @@ namespace Projeto10
             label1.ForeColor = Color.Red;
         }
 
-        private void Pagina2_Load(object sender, EventArgs e)
-        {
-
-            Application.Run(new Pagina2());
-        }
+       
 
         private void textBox1_TextChanged(object sender, EventArgs e) { }
 
